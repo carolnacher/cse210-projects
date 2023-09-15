@@ -1,5 +1,5 @@
 # cse210-student-template
-Modify by Carol Nacher
+Modify by Carol Nacher 2nd time to correct git user name
 
 This repository contains the starter code for many different projects. They are arranged as follows:
 
