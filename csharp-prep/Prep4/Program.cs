@@ -6,7 +6,7 @@ class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("Hello Prep4 World!");
+        
         List<int> numbers = new List<int>();
         List<int> positives =  new List<int>();
         int new_number = -1;
