@@ -21,9 +21,11 @@ class Program
 
                 Console.WriteLine("\nRandom Journal Prompt:");
                 Console.WriteLine(randomPrompt);
-                Console.WriteLine("Enter your mood: ");
+                
                 string date = DateTime.Now.ToString("yyyy-MM-dd");
                 string userResponse = Console.ReadLine();
+
+                Console.WriteLine("Enter your mood: ");
                 string mood = Console.ReadLine();
     
 
@@ -108,7 +110,7 @@ class Program
                 string moodLine = reader.ReadLine();
                 reader.ReadLine(); 
 
-                if (dateLine != null && promptLine != null && responseLine != null)
+                if (dateLine != null && promptLine != null && responseLine != null && moodLine != null)
                 {
                     // Extract the actual date, prompt, and response from the lines
                     string date = dateLine;
