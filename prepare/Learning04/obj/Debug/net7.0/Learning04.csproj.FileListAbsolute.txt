@@ -1,0 +1,14 @@
+C:\Users\Bruno\Desktop\BYU\cse210\cse210-projects\prepare\Learning04\bin\Debug\net7.0\Learning04.exe
+C:\Users\Bruno\Desktop\BYU\cse210\cse210-projects\prepare\Learning04\bin\Debug\net7.0\Learning04.deps.json
+C:\Users\Bruno\Desktop\BYU\cse210\cse210-projects\prepare\Learning04\bin\Debug\net7.0\Learning04.runtimeconfig.json
+C:\Users\Bruno\Desktop\BYU\cse210\cse210-projects\prepare\Learning04\bin\Debug\net7.0\Learning04.dll
+C:\Users\Bruno\Desktop\BYU\cse210\cse210-projects\prepare\Learning04\bin\Debug\net7.0\Learning04.pdb
+C:\Users\Bruno\Desktop\BYU\cse210\cse210-projects\prepare\Learning04\obj\Debug\net7.0\Learning04.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Bruno\Desktop\BYU\cse210\cse210-projects\prepare\Learning04\obj\Debug\net7.0\Learning04.AssemblyInfoInputs.cache
+C:\Users\Bruno\Desktop\BYU\cse210\cse210-projects\prepare\Learning04\obj\Debug\net7.0\Learning04.AssemblyInfo.cs
+C:\Users\Bruno\Desktop\BYU\cse210\cse210-projects\prepare\Learning04\obj\Debug\net7.0\Learning04.csproj.CoreCompileInputs.cache
+C:\Users\Bruno\Desktop\BYU\cse210\cse210-projects\prepare\Learning04\obj\Debug\net7.0\Learning04.dll
+C:\Users\Bruno\Desktop\BYU\cse210\cse210-projects\prepare\Learning04\obj\Debug\net7.0\refint\Learning04.dll
+C:\Users\Bruno\Desktop\BYU\cse210\cse210-projects\prepare\Learning04\obj\Debug\net7.0\Learning04.pdb
+C:\Users\Bruno\Desktop\BYU\cse210\cse210-projects\prepare\Learning04\obj\Debug\net7.0\Learning04.genruntimeconfig.cache
+C:\Users\Bruno\Desktop\BYU\cse210\cse210-projects\prepare\Learning04\obj\Debug\net7.0\ref\Learning04.dll
