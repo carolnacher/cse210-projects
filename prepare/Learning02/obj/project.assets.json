@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Bruno\\Desktop\\BYU\\cse210\\cse210-projects\\prepare\\Learning02\\Learning02.csproj",
+      "projectUniqueName": "C:\\Users\\Bruno\\Desktop\\cse210-projects\\prepare\\Learning02\\Learning02.csproj",
       "projectName": "Learning02",
-      "projectPath": "C:\\Users\\Bruno\\Desktop\\BYU\\cse210\\cse210-projects\\prepare\\Learning02\\Learning02.csproj",
+      "projectPath": "C:\\Users\\Bruno\\Desktop\\cse210-projects\\prepare\\Learning02\\Learning02.csproj",
       "packagesPath": "C:\\Users\\Bruno\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Bruno\\Desktop\\BYU\\cse210\\cse210-projects\\prepare\\Learning02\\obj\\",
+      "outputPath": "C:\\Users\\Bruno\\Desktop\\cse210-projects\\prepare\\Learning02\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Bruno\\AppData\\Roaming\\NuGet\\NuGet.Config"

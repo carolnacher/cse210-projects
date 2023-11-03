@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Bruno\\Downloads\\cse210-projectscarol\\prove\\Develop02\\Develop02.csproj": {}
+    "C:\\Users\\Bruno\\Desktop\\cse210-projects\\prove\\Develop02\\Develop02.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Bruno\\Downloads\\cse210-projectscarol\\prove\\Develop02\\Develop02.csproj": {
+    "C:\\Users\\Bruno\\Desktop\\cse210-projects\\prove\\Develop02\\Develop02.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Bruno\\Downloads\\cse210-projectscarol\\prove\\Develop02\\Develop02.csproj",
+        "projectUniqueName": "C:\\Users\\Bruno\\Desktop\\cse210-projects\\prove\\Develop02\\Develop02.csproj",
         "projectName": "Develop02",
-        "projectPath": "C:\\Users\\Bruno\\Downloads\\cse210-projectscarol\\prove\\Develop02\\Develop02.csproj",
+        "projectPath": "C:\\Users\\Bruno\\Desktop\\cse210-projects\\prove\\Develop02\\Develop02.csproj",
         "packagesPath": "C:\\Users\\Bruno\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Bruno\\Downloads\\cse210-projectscarol\\prove\\Develop02\\obj\\",
+        "outputPath": "C:\\Users\\Bruno\\Desktop\\cse210-projects\\prove\\Develop02\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Bruno\\AppData\\Roaming\\NuGet\\NuGet.Config"
