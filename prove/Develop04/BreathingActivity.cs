@@ -37,14 +37,12 @@ public class BreathingActivity : MindfulnessActivity
             
             for (int seconds = 0; seconds < Duration; seconds += 10)
             {
-                
+                DisplaySpinner();
                 int second = 5;
                 string inhaleMessage = "Inhale deeply... ";
-                DisplaySpinner();
                 ContDown(inhaleMessage, second);
-                Console.SetCursorPosition(0, Console.CursorTop + 1);  
+                Console.SetCursorPosition(0, Console.CursorTop + 1);
                 string exhaleMessage = "Breathe out.. ";
-                DisplaySpinner();
                 ContDown(exhaleMessage, second);
                 Console.SetCursorPosition(0, Console.CursorTop + 1); 
                 Console.WriteLine();

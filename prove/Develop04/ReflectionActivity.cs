@@ -50,18 +50,16 @@ public class ReflectionActivity : MindfulnessActivity
                 DisplayCountdown("What was your favorite thing about this experience? ", Duration);
                 DisplaySpinner();
 
-            }     
-        
-Console.WriteLine();
-Thread.Sleep(2000);
-Console.WriteLine("Congratulations! You've completed the Reflecton Activity.");
-Console.WriteLine();
-DisplayEndMessage();    
+                Console.WriteLine();
+                Thread.Sleep(2000);
+                Console.WriteLine("Congratulations! You've completed the Reflecton Activity.");
+                Console.WriteLine();
+                DisplayEndMessage();    
+
+            }   
 
        }
 }
-
-
 
 
 }

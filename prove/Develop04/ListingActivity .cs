@@ -11,77 +11,66 @@ public class ListingActivity : MindfulnessActivity
         ListOfItems = new List<string>();
     }
 
-    public string GetRandomPrompt()
+   public string GetRandomPrompt()
     {
-        
+
         string[] prompts =
         {
             "When have you felt the Holy Ghost this month?",
             "Ways you can be a disciple of Christ?",
             "Ways I can serve others?",
+            "things I'm grateful for",
         };
 
         Random random = new Random();
         int index = random.Next(prompts.Length);
         return prompts[index];
-        
+
     }
 
     public void EnumerateItemsWithCustomTime()
+    {
+       Console.WriteLine("Enter the duration for the activity: ");
+        if (int.TryParse(Console.ReadLine(), out int Duration) && Duration > 0)
+        
         {
-            Console.WriteLine("Enter the duration (in seconds) for enumerating items: ");
-            if (int.TryParse(Console.ReadLine(), out int customDuration) && customDuration > 0)
+            var startTime = DateTime.Now;
+            var endTime = startTime.AddSeconds(Duration);
+
+            string prompt = GetRandomPrompt();
+            List<string> items = new List<string>();
+
+            Console.WriteLine(prompt);
+            Console.WriteLine(" If you feel ready press Enter to start.");
+            Console.ReadLine();
+            Console.WriteLine("The timer has started!");
+
+            while (DateTime.Now < endTime)
             {
-                var startTime = DateTime.Now;
-                var endTime = startTime.AddSeconds(customDuration);
 
-                string prompt = GetRandomPrompt();
-                List<string> items = new List<string>();
-
-                Console.WriteLine(prompt);
-                Console.WriteLine("Press Enter to start.");
-                Console.ReadLine();
-
-                Console.WriteLine("The timer has started!");
-                Task countdownTask = Task.Run(() =>
-                {
-                    DisplayCountdown("Time remaining: ", customDuration);
-                });
-
-                while (DateTime.Now < endTime)
-                {
-                    
-                    if (DateTime.Now >= endTime)
-                        break; 
-                    string item = Console.ReadLine();    
-                    items.Add(item);
-                }
-
-                countdownTask.Wait(); 
-
-                Console.WriteLine("Time's up! Your items:");
-
-                foreach (var item in items)
-                {
-                    DisplayItem(item);
-                }
-
-                Console.WriteLine();
-                Console.WriteLine("Congratulations! You've completed the Listing Activity.");
-                Console.WriteLine();
-                DisplayEndMessage();
+                if (DateTime.Now >= endTime)
+                    break;
+                string item = Console.ReadLine();
+                items.Add(item);
             }
-            else
+            
+            Console.WriteLine();
+            Console.WriteLine("\bTime's up! well done!!  -- Your items--");
+
+            foreach (var item in items)
             {
-                Console.WriteLine("Invalid duration. Please enter a positive number of seconds.");
+                DisplayItem(item);
             }
         }
-
-
-    public void DisplayItem(string item)
+        else
+        {
+            Console.WriteLine("Invalid duration. Please enter a positive number of seconds.");
+        }
+    }
+    private void DisplayItem(string item)
     {
         Console.WriteLine($"- {item}");
     }
 
-    
+
 }
