@@ -6,6 +6,7 @@ abstract class Goal
     public int Value { get; protected set; }
     public bool Completed { get; set; }
     
+    
 
     public Goal(string name, string description, int value)
     {
@@ -17,7 +18,10 @@ abstract class Goal
 
     public virtual void Display()
     {
+        
+        Console.WriteLine($"[{(Completed ? "X" : " ")}] {Name} - {Description} ");
        
     }
     public abstract void RecordEvent();
+    
 }

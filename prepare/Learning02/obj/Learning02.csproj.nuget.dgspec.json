@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Bruno\\Desktop\\cse210-projects\\prepare\\Learning02\\Learning02.csproj": {}
+    "C:\\Users\\Bruno\\Desktop\\cse210-projects-1\\prepare\\Learning02\\Learning02.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Bruno\\Desktop\\cse210-projects\\prepare\\Learning02\\Learning02.csproj": {
+    "C:\\Users\\Bruno\\Desktop\\cse210-projects-1\\prepare\\Learning02\\Learning02.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Bruno\\Desktop\\cse210-projects\\prepare\\Learning02\\Learning02.csproj",
+        "projectUniqueName": "C:\\Users\\Bruno\\Desktop\\cse210-projects-1\\prepare\\Learning02\\Learning02.csproj",
         "projectName": "Learning02",
-        "projectPath": "C:\\Users\\Bruno\\Desktop\\cse210-projects\\prepare\\Learning02\\Learning02.csproj",
+        "projectPath": "C:\\Users\\Bruno\\Desktop\\cse210-projects-1\\prepare\\Learning02\\Learning02.csproj",
         "packagesPath": "C:\\Users\\Bruno\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Bruno\\Desktop\\cse210-projects\\prepare\\Learning02\\obj\\",
+        "outputPath": "C:\\Users\\Bruno\\Desktop\\cse210-projects-1\\prepare\\Learning02\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Bruno\\AppData\\Roaming\\NuGet\\NuGet.Config"

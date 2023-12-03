@@ -1,19 +1,26 @@
 class SimpleGoal : Goal
 {
-    public SimpleGoal(string name,string description, int value) : base(name,description, value) { }
+    private int checkpointCount;
 
-   public override void RecordEvent()
+    public SimpleGoal(string name, string description, int value) : base(name, description, value)
     {
-        if (!Completed)
+        checkpointCount = 0;
+    }
+
+    public override void RecordEvent()
+    {
+        checkpointCount++;
+        Console.WriteLine();
+        Console.WriteLine($"Good Job with -> {Name} <- Simple Goal. You do it!! gained {Value} points!");
+
+        if (checkpointCount >= 2) 
         {
             Completed = true;
-            Console.WriteLine();
-            Console.WriteLine($"Good Job with -> {Name} <- Simple Goal. You do it!! gained {Value} points!");
+            Console.WriteLine($"Congratulations! {Name} is completed. You earned additional points!");
         }
         else
         {
-            Console.WriteLine($"This goal -> {Name} <- has already been completed. Recording additional events.");
+            Console.WriteLine($"You are closer to the goal {Name} - {checkpointCount}/2 times. Keep going!");
         }
     }
-
 }

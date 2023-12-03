@@ -2,7 +2,6 @@ using System;
 using System.Collections.Generic;
 using System.IO;
 
-
 class Program
 {
     static void Main()
@@ -36,7 +35,7 @@ class Program
                         break;
                     case 3:
                         user.RecordEvent();
-                        myGoal.Display();
+                        
                         break;
                     case 4:
                         user.ShowScore();
@@ -63,3 +62,5 @@ class Program
         } while (choice != 7);
     }
 }
+
+// Resto del código (clases User, Goal, SimpleGoal, etc.)...
