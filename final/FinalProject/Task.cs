@@ -1,8 +1,11 @@
+using System;
+using System.Collections.Generic;
+
 class Task
 {
     public string Name { get; }
     public int Point { get; }
-    public bool IsComplete { get; private set; }
+    public bool IsComplete { get; protected set; }
 
     public Task(string name, int point, bool isComplete = false)
     {
@@ -11,7 +14,7 @@ class Task
         IsComplete = isComplete;
     }
 
-    public void Perform()
+    public virtual void Perform()
     {
         if (!IsComplete)
         {
@@ -19,7 +22,7 @@ class Task
         }
         else
         {
-            Console.WriteLine($"Now you are ready to continue with others activities.");
+            Console.WriteLine($"Now you are ready to continue with other activities.");
         }
     }
 
@@ -28,11 +31,7 @@ class Task
         if (!IsComplete)
         {
             IsComplete = true;
-            Console.WriteLine($"well done!! you get {Point} points");
-        }
-        else
-        {
-            Console.WriteLine(" ");
+            Console.WriteLine($"Well done!! You get {Point} points");
         }
     }
 

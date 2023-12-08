@@ -18,12 +18,26 @@ class Game
 
     public void ShowScore()
     {
-        Console.WriteLine("Performed Tasks:");
-        foreach (var task in performedTasks)
+        Console.WriteLine("Your score is:");
+        
         {
-            Console.WriteLine($"{task.Name}: {task.Point} points");
+           Console.WriteLine($"Total Score: {totalPoint} points");
         }
 
-        Console.WriteLine($"Total Score: {totalPoint} points");
+        
     }
+     public void DisplayCountdown(string message, int seconds)
+    {
+        Console.WriteLine(message);
+        for (int i = seconds; i > 0; i--)
+        {
+            Console.Write($"{i} seconds... ");
+            System.Threading.Thread.Sleep(1000);
+            Console.SetCursorPosition(0, Console.CursorTop);
+            Console.Write(new string(' ', Console.WindowWidth));
+            Console.SetCursorPosition(0, Console.CursorTop);
+        }
+        Console.WriteLine();
+    }
+    
 }
